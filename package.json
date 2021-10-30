@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tailwindcss build -i ./src/tailwind.css -o ./public/tailwind.css -w",
-    "build": "NODE_ENV=production npm run dev"
+    "build": "NODE_ENV=production tailwindcss build -i ./src/tailwind.css -o ./public/tailwind.css"
   },
   "keywords": [],
   "author": "",
